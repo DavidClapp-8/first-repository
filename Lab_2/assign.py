@@ -1,0 +1,25 @@
+x = "word"
+y = 10
+z = 5.5
+print(type(x))
+print(type(y))
+print(type(z))
+zy = z + y
+print(zy)
+print(type(zy))
+print("------")
+zinty = y + int(z)
+print(zinty)
+print(type(zinty))
+print("-----")
+zfloaty = z + float(y)
+print(zfloaty)
+print(type(zfloaty))
+print("------")
+print(type(str(z)))
+print("----")
+xstry_strz = x + str(y) + str(z)
+print(xstry_strz)
+print(type(xstry_strz))
+print("----")
+print("We cannot add x and y as one is string and another an integer")
