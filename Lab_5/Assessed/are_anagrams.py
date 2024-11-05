@@ -21,25 +21,32 @@ def are_anagrams(str1, str2):
     """
 
     # Function implementation here ...
-    list_1 = list(str1)
-    list_2 = list(str2)
-    del_1 = list(str1)
-    del_2 = list(str2)
-    for x in list_1:
-        for y in list_2:
-            if x == y:
-                try:
-                    del_1.remove(x)
-                    del_2.remove(y)
-                except ValueError:
-                    continue
-            else:
-                continue
 
-    if del_1 == del_2:
-        result = True
-    else:
-        result = False
+
+    flag = False
+    if type(str1) != str or type(str2) != str:
+        flag = True
+        total = "Incorrect input"
+    if flag == False:
+        list_1 = list(str1)
+        list_2 = list(str2)
+        del_1 = list(str1)
+        del_2 = list(str2)
+        for x in list_1:
+            for y in list_2:
+                if x == y:
+                    try:
+                        del_1.remove(x)
+                        del_2.remove(y)
+                    except ValueError:
+                        continue
+                else:
+                    continue
+
+        if del_1 == del_2:
+            result = True
+        else:
+            result = False
 
     return result
 ## Example 

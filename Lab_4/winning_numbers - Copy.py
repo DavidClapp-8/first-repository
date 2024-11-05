@@ -28,6 +28,8 @@ def winning_numbers(user_list, winning_list):
     """
 
     # Function implementation here ...
+    a = set(user_list)
+    user_list = list(a)
     score = 0
     if user_list[0] in winning_list:
         print(f"Index 1 is in")

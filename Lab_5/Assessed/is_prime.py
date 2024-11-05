@@ -15,17 +15,23 @@ def is_prime(num):
 
 
     # Function implementation here ...
+    num_type = False
+    if type(num) != int:
+        num_type = True
+        output = "Incorrect input"
+
     check = False
-    if num == 1 or num == 0:
-        output = False
-    for i in range(2, num):
-        if num % i == 0:
-            check = True
-            break
-    if check:
-        output = False
-    else:
-        output = True
+    if num_type == False:
+        if num == 1 or num == 0:
+            output = False
+        for i in range(2, num):
+            if num % i == 0:
+                check = True
+                break
+        if check:
+            output = False
+        else:
+            output = True
 
     return output
 

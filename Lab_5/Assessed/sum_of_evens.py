@@ -21,10 +21,18 @@ def sum_of_evens(min_value, max_value):
 
 
     # Function implementation here ...
+    flag = False
     total = 0
-    for i in range(min_value, max_value):
-        if i % 2 == 0:
-            total += i
+    if type(min_value) != int or type(max_value) != int:
+        flag = True
+        total = "Incorrect input"
+        
+
+
+    if flag == False:
+        for i in range(min_value, max_value):
+            if i % 2 == 0:
+                total += i
 
     
     return total
