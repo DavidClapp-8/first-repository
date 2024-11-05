@@ -50,14 +50,14 @@ def winning_numbers(user_list, winning_list):
     else:
         prize = "No"
         
-    print(prize)
+ 
 
     # Print the result
-    print(f"Congratulations, you won {prize} prize!")
+    prize = (f"Congratulations, you won {prize} prize!")
     return prize
 
 
 
 user_list = [1, 2, 3]
 winning_list = [1, 2, 3]
-winning_numbers(user_list, winning_list)
+print(winning_numbers(user_list, winning_list))
