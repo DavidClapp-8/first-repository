@@ -8,4 +8,4 @@ def decrypt_cypher_text(encrypted_text, key):
         decrypted_text += (chr(remainder))
 
     return decrypted_text
-print(decrypt_cypher_text("Hdfk#huuru#|rx#pdnh#lq#surjudpplqj#lv#dq#rssruwxqlw|#wr#ehfrph#d#ehwwhu#ghyhorsh", 3))
+print(decrypt_cypher_text("Hdfk#huuru#|rx#pdnh#lq#surjudpplqj#lv#dq#rssruwxqlw|#wr#ehfrph#d#ehwwhu#ghyhorshu$", 3))

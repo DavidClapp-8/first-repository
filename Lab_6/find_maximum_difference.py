@@ -10,7 +10,7 @@ def find_maximum_difference(a, b):
             diff_3 = max(diff, diff_2)
             print(F"DIFF_3: {diff_3}")
             if maximum <= diff_3:
-                maximum = diff_3    
+                maximum = diff_3
             print(f"MAX: {maximum}")
     
     
