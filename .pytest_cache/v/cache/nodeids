@@ -1,0 +1,21 @@
+[
+  "Lab_3/test_lab3_functions.py::test_encoding_function",
+  "Lab_3/test_lab3_functions.py::test_remove_duplicates",
+  "Lab_3/test_lab3_functions.py::test_reverse_list",
+  "Lab_7/test_functions.py::test_annual_net_income",
+  "Lab_7/test_functions.py::test_are_anagrams",
+  "Lab_7/test_functions.py::test_calculate_average",
+  "Lab_7/test_functions.py::test_calculate_weekly_pay",
+  "Lab_7/test_functions.py::test_calculator",
+  "Lab_7/test_functions.py::test_celsius_to_fahrenheit",
+  "Lab_7/test_functions.py::test_decrypt_cypher_text",
+  "Lab_7/test_functions.py::test_find_maximum_difference",
+  "Lab_7/test_functions.py::test_fuel_cost",
+  "Lab_7/test_functions.py::test_is_golden_number",
+  "Lab_7/test_functions.py::test_is_prime",
+  "Lab_7/test_functions.py::test_km_to_miles",
+  "Lab_7/test_functions.py::test_letter_occurrence",
+  "Lab_7/test_functions.py::test_max_of_three",
+  "Lab_7/test_functions.py::test_sum_of_evens",
+  "Lab_7/test_functions.py::test_winning_numbers"
+]
