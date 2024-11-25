@@ -13,11 +13,13 @@ def select_menu_option():
 
 select_menu_option()
 
-
 def read_file_content(filename):
-    with open(filename, 'r') as file:
-        content = file.read()
-    print(content)
+    try:
+        with open(filename, 'r') as file:
+            content = file.read()
+        print(content)
+    except:
+        FileNotFoundError
 
 # Example usage
 read_file_content('nonexistent_file.txt')
@@ -38,7 +40,11 @@ divide_numbers(10, 0)
 
 
 def get_number():
-    number = float(input("Enter a number: "))
-    return number
+    try:
+        number = float(input("Enter a number: "))
+        return number
+    except:
+        not float
+        print("Not a float")
 
 get_number()
